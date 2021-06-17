@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+menu{
+    background-color: rgba(0, 0, 0, 0.794);
+    position: fixed;
+    height: 100%;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    margin:10px 0px;
+}
+
+ul li a{
+    font-size: 10px;
+    color: white;
+}
