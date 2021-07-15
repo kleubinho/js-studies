@@ -48,3 +48,5 @@ b2.addEventListener("click", ()=>{
     caixa.innerHTML = "Mudei o texto"
     caixa1.innerHTML = "Mudei aqui também"
 })
+
+

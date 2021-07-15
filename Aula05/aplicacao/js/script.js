@@ -1,8 +1,15 @@
 const btnOpen = document.querySelector("#open");
+const menu = document.querySelector("menu");
+const main = document.querySelector("main");
+const btnClose = document.querySelector("#close");
 
-}poiuytvrc xcont menu = document.que7
+btnOpen.addEventListener("click",()=>{
+    menu.style.width="200px"
+    main.style.marginLeft="200px";
+})
 
 
-btnOpen.addEventListener("click",()+>{
-    menu.style.width
+btnClose.addEventListener("click",()=>{
+    menu.style.width="0"
+    main.style.marginLeft="0";
 })
